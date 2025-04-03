@@ -5,6 +5,7 @@ import SkillsSection from "./components/SkillsSec";
 import Featured from "./components/featuredProject";
 import Projects from "./components/projects";
 import Ezsnack from "./pages/ezsnack";
+import Angher from "./pages/angher"; // Importe a nova página
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             }
           />
           <Route path="/ezsnack" element={<Ezsnack />} />
+          <Route path="/angher" element={<Angher />} /> {/* Nova rota */}
         </Routes>
       </div>
     </Router>

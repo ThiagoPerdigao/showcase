@@ -43,7 +43,7 @@ export const Solucao = () => {
 
   const telasMobile = [
     {
-      img: "/ezsnack/HomeMobile.jpg",
+      img: "/ezsnack/HomeMobile.png",
       titulo: "Home Mobile",
       descricao: "Interface adaptada ao perfil do usuário",
       funcionalidades: [
@@ -53,7 +53,7 @@ export const Solucao = () => {
       ]
     },
     {
-      img: "/ezsnack/PedidosMobile.jpg",
+      img: "/ezsnack/PedidosMobile.png",
       titulo: "Realização de Pedidos",
       descricao: "A tela de realização de pedidos organiza os itens do cardápio em categorias e permite que o usuário escolha a quantidade desejada, exibindo o total do pedido em tempo real e confirmando a compra de forma prática.",
       funcionalidades: [
@@ -64,7 +64,7 @@ export const Solucao = () => {
       ]
     },
     {
-      img: "/ezsnack/HistoricoMobile.jpg",
+      img: "/ezsnack/HistoricoMobile.png",
       titulo: "Histórico de Pedidos",
       descricao: "A tela de histórico permite aos usuários visualizar todos os pedidos realizados, com funcionalidades adicionais para os responsáveis, que podem selecionar o dependente cujos pedidos desejam consultar.",
       funcionalidades: [
@@ -74,7 +74,7 @@ export const Solucao = () => {
       ]
     },
     {
-      img: "/ezsnack/PerfilMobile.jpg",
+      img: "/ezsnack/PerfilMobile.png",
       titulo: "Perfil do Responsável",
       descricao: "A tela de perfil do responsável permite o gerenciamento completo das informações pessoais e dos dependentes vinculados à conta, incluindo funcionalidades para controle de saldo, segurança e ajustes de configuração para cada dependente.",
       funcionalidades: [

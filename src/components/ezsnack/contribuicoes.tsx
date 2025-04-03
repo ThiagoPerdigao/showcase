@@ -110,7 +110,7 @@ const Contribuicoes = () => {
                 </span>
               </summary>
               <p className="mt-4 leading-relaxed text-gray-700">
-                Implementei o sistema dinâmico de validação de usuário e segurança nas rotas, adaptando as permissões para cada tipo de usuário. Desenvolvi o módulo completo de realização de pedidos, histórico de transações e exibição de saldo. Participe ativamente do módulo de perfil do responsável, incluindo as funcionalidades de recarga e monitoramento do aluno, além de garantir a perfeita integração com todo o ecossistema do sistema.
+                Implementei o sistema dinâmico de validação de usuário e segurança nas rotas, adaptando as permissões para cada tipo de usuário. Desenvolvi o módulo completo de realização de pedidos, histórico de transações e exibição de saldo. Participei ativamente do módulo de perfil do responsável, incluindo as funcionalidades de recarga e monitoramento do aluno, além de garantir a perfeita integração com todo o ecossistema do sistema.
               </p>
             </details>
   
