@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import HeaderAngher from "../components/angher/headerAngher";
 import BannerAngher from "../components/angher/bannerAngher";
 import ContribuicoesAngher from "../components/angher/contribuicoes";
