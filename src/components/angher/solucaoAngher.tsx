@@ -189,7 +189,7 @@ export const SolucaoAngher = () => {
             <strong className="text-[#ff7b25] ml-2">Desenvolvida</strong>
           </h1>
           <p className="mt-4 text-lg text-gray-600">
-            Explore as principais telas do sistema ANGHER, uma solução web para atender às necessidades da operação de gestão de estoque, se atentando as demandas específicas de cada perfil de usuário. Cada interface foi cuidadosamente projetada para oferecer uma experiência intuitiva e eficiente. Separei em 3 categorias: Funcionário, Aluno e Administração. Onde funcionario exive as telas do funcionário comum, adminsitração apenas de usuários com cargo de admin e alunos, onde foi um embrião do projeto <a className='text-[#ffc100] font-bold' href="/ezsnack"><span className='text-black'>EZ</span>SNACK</a>!
+            Explore as principais telas do sistema ANGHER, uma solução web para atender às necessidades da operação de gestão de estoque, se atentando as demandas específicas de cada perfil de usuário. Cada interface foi cuidadosamente projetada para oferecer uma experiência intuitiva e eficiente. Separei em 3 categorias: Funcionário, Aluno e Administração. Onde funcionario exive as telas do funcionário comum, adminsitração apenas de usuários com cargo de admin e alunos, onde foi um embrião do projeto <a className='text-[#ffc100] font-bold' href=""><span className='text-black'>EZ</span>SNACK</a>!
           </p>
         </div>
 
