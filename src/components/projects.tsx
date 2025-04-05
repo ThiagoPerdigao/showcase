@@ -1,6 +1,7 @@
 import { FaReact, FaDatabase, FaBootstrap, FaHtml5, FaJs } from "react-icons/fa";
 import { SiTailwindcss, SiSpringboot, SiMysql } from "react-icons/si";
 import { Link } from "react-router-dom"; // Importando Link para navegação interna
+import { ReactNode } from "react";
 
 const projects = [
   {
@@ -79,7 +80,7 @@ interface Project {
   hoverImage: string;
   link: string;
   description: string;
-  techs: JSX.Element[];
+  techs: ReactNode[];
 }
 
 const ProjectCard = ({ project }: { project: Project }) => (
