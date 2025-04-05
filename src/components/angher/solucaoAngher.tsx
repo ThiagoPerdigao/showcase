@@ -16,7 +16,6 @@ export const SolucaoAngher = () => {
       funcionalidades: [
         "Autenticação segura com validação de credenciais",
         "Redirecionamento para a área apropriada conforme perfil",
-        "Recuperação de senha integrada"
       ]
     },
     {
@@ -36,7 +35,10 @@ export const SolucaoAngher = () => {
       funcionalidades: [
         "Registro de entradas e saídas de materiais",
         "Alertas de estoque mínimo",
-        "Relatórios de movimentação"
+        "Filtragem por categoria",
+        "Ordenação por ordem alfabéticam tipo ou quantidade",
+        "Busca por nome ou código do item",
+        "Seleção para ação com multiplos itens"
       ]
     },
     {
@@ -46,7 +48,8 @@ export const SolucaoAngher = () => {
       funcionalidades: [
         "Cadastro de novos itens",
         "Atualização de quantidades existentes",
-        "Vinculação a solicitações de compra"
+        "Vinculação a solicitações de compra",
+        "Filtragem por data"
       ]
     },
     {
@@ -54,9 +57,12 @@ export const SolucaoAngher = () => {
       titulo: "Estoque da Cantina",
       descricao: "Gerenciamento dos produtos disponíveis para venda na cantina.",
       funcionalidades: [
-        "Controle de disponibilidade dos produtos",
-        "Ajuste de preços e promoções",
-        "Integração com o sistema de pedidos"
+        "Registro de entradas e saídas de materiais",
+        "Alertas de estoque mínimo",
+        "Filtragem por categoria",
+        "Ordenação por ordem alfabético, tipo ou quantidade",
+        "Busca por nome ou código do item",
+        "Seleção para ação com multiplos itens"
       ]
     }
   ];
@@ -68,7 +74,6 @@ export const SolucaoAngher = () => {
       descricao: "Tela de autenticação para alunos acessarem o sistema.",
       funcionalidades: [
         "Login com matrícula e senha",
-        "Lembrar credenciais opcional",
         "Redirecionamento para área do aluno"
       ]
     },
@@ -77,9 +82,9 @@ export const SolucaoAngher = () => {
       titulo: "Home do Aluno",
       descricao: "Tela principal com resumo e acesso rápido às funcionalidades.",
       funcionalidades: [
-        "Visualização do saldo disponível",
         "Acesso rápido ao cardápio",
-        "Histórico recente de pedidos"
+        "Histórico recente de pedidos",
+        "Logout"
       ]
     },
     {
@@ -97,9 +102,10 @@ export const SolucaoAngher = () => {
       titulo: "Pedidos do Aluno",
       descricao: "Histórico completo de todos os pedidos realizados.",
       funcionalidades: [
+        "Visualização de histórico de compras",
         "Filtros por data e status",
         "Detalhes completos de cada pedido",
-        "Opção de cancelamento (se permitido)"
+       
       ]
     }
   ];
@@ -110,9 +116,10 @@ export const SolucaoAngher = () => {
       titulo: "Home Page",
       descricao: "Tela inicial do sistema com visão geral e acesso rápido.",
       funcionalidades: [
-        "Dashboard com métricas importantes",
+        "Direcionamento para áreas específicas com separação por módulos",
         "Acesso rápido às principais funcionalidades",
-        "Alertas e notificações"
+        "Acesso a area de ajuda",
+        "Logout"
       ]
     },
     {
@@ -130,19 +137,18 @@ export const SolucaoAngher = () => {
       titulo: "Cadastro de Aluno",
       descricao: "Sistema para registro de novos alunos no sistema.",
       funcionalidades: [
-        "Cadastro individual ou em lote",
+        "Gerência de alunos com informações pessoais",
         "Vinculação a turmas e turnos",
         "Geração automática de credenciais"
       ]
     },
     {
       img: "/angher/Ajuda_Almoxarifado.jpeg",
-      titulo: "Ajuda do Almoxarifado",
-      descricao: "Central de ajuda para funcionários do almoxarifado.",
+      titulo: "Ajudas",
+      descricao: "Central de ajuda para funcionários do almoxarifado. Há uma para cada módulo.",	
       funcionalidades: [
         "Tutoriais e manuais de uso",
         "FAQ com dúvidas frequentes",
-        "Formulário para solicitar suporte"
       ]
     }
   ];
@@ -183,7 +189,7 @@ export const SolucaoAngher = () => {
             <strong className="text-[#ff7b25] ml-2">Desenvolvida</strong>
           </h1>
           <p className="mt-4 text-lg text-gray-600">
-            Explore as principais telas do sistema ANGHER, desenvolvidas para atender às necessidades específicas de cada perfil de usuário. Cada interface foi cuidadosamente projetada para oferecer uma experiência intuitiva e eficiente.
+            Explore as principais telas do sistema ANGHER, uma solução web para atender às necessidades da operação de gestão de estoque, se atentando as demandas específicas de cada perfil de usuário. Cada interface foi cuidadosamente projetada para oferecer uma experiência intuitiva e eficiente. Separei em 3 categorias: Funcionário, Aluno e Administração. Onde funcionario exive as telas do funcionário comum, adminsitração apenas de usuários com cargo de admin e alunos, onde foi um embrião do projeto <a className='text-[#ffc100] font-bold' href="/ezsnack"><span className='text-black'>EZ</span>SNACK</a>!
           </p>
         </div>
 

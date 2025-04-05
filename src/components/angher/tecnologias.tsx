@@ -1,7 +1,7 @@
 import { FaServer as ServerIcon, FaGithub } from 'react-icons/fa';
 import { FiLayout as LayoutIcon, FiClipboard as ClipboardIcon } from 'react-icons/fi';
 import { FaJava } from 'react-icons/fa';
-import { SiSpringboot, SiMysql, SiBootstrap, SiCanva } from 'react-icons/si';
+import { SiSpringboot, SiMysql, SiBootstrap, SiCanva, SiGoogledocs } from 'react-icons/si';
 
 export const TecnologiasAngher = () => {
   return (
@@ -85,7 +85,7 @@ export const TecnologiasAngher = () => {
               {[
                 { icon: <FaGithub />, name: "GitHub", desc: "Controle de versão e Issues" },
                 { icon: <SiCanva />, name: "Canva", desc: "Prototipagem" },
-                { icon: <FaGithub />, name: "Google Docs", desc: "Documentação do projeto" }
+                { icon: <SiGoogledocs />, name: "Pacote Office Google", desc: "Documentação" }
               ].map((tech, index) => (
                 <li key={index} className="flex items-start gap-4 p-3 hover:bg-gray-50 rounded-lg">
                   <div className="p-2 bg-[#ff7b25] rounded-full">

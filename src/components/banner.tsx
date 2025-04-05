@@ -21,7 +21,7 @@ const Banner = () => {
           </h1>
           <h2 className="text-xl font-semibold text-amber-400 mt-2">ENGENHEIRO DE SOFTWARE EM FORMAÇÃO</h2>
           <p className="mt-4 text-base text-pretty text-gray-700 sm:text-lg/relaxed">
-            Estudante de Engenharia de Software com sólida experiência em desenvolvimento e domínio de tecnologias como React, JavaScript, Tailwind, Node, Java, Spring Boot e SQL. Atuei em projetos reais com clientes, adquirindo habilidades práticas e adaptabilidade a diferentes contextos e demandas.
+          Sou estudante de Engenharia de Software na PUC Minas, com experiência prática em desenvolvimento web/mobile e atualmente atuando como estagiário na área de Qualidade de Software (QA). Tenho proeficiência em tecnologias como React, React Native, Java, Spring Boot e SQL, além de familiaridade com metodologias ágeis e práticas de testes de software.
           </p>
           <div className="mt-6 flex flex-wrap gap-4">
             <a
