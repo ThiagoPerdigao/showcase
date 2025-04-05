@@ -21,7 +21,9 @@ const Banner = () => {
           </h1>
           <h2 className="text-xl font-semibold text-amber-400 mt-2">ENGENHEIRO DE SOFTWARE EM FORMAÇÃO</h2>
           <p className="mt-4 text-base text-pretty text-gray-700 sm:text-lg/relaxed">
-          Sou estudante de Engenharia de Software na PUC Minas, com experiência prática em desenvolvimento web/mobile e atualmente atuando como estagiário na área de Qualidade de Software (QA). Tenho proeficiência em tecnologias como React, React Native, Java, Spring Boot e SQL, além de familiaridade com metodologias ágeis e práticas de testes de software.
+          Sou estudante de Engenharia de Software na PUC Minas e atualmente estagiário de QA, onde aplico conceitos de qualidade de software, testes e validação de funcionalidades. Paralelamente, desenvolvo projetos web e mobile, com proficiência em React, JavaScript, Node.js, Java com Spring Boot, React Native, Tailwind CSS e SQL. 
+<br /><br />
+          Tenho facilidade em me adaptar a diferentes contextos e estou sempre em busca de evolução técnica — seja em testes, desenvolvimento ou metodologias ágeis. Valorizo boas práticas de UI/UX, organização de código e integração eficiente entre camadas do sistema.
           </p>
           <div className="mt-6 flex flex-wrap gap-4">
             <a
