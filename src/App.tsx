@@ -6,6 +6,7 @@ import Featured from "./components/featuredProject";
 import Projects from "./components/projects";
 import Ezsnack from "./pages/ezsnack";
 import Angher from "./pages/angher"; // Importe a nova página
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
                 <section id="Featured">
                   <Featured />
                 </section>
+                <Footer />
               </>
             }
           />

@@ -5,6 +5,7 @@ import BannerEzSnack from "../components/ezsnack/bannerezsnack";
 import Contribuicoes from "../components/ezsnack/contribuicoes";
 import { Solucao } from "../components/ezsnack/solucao";
 import { Tecnologias } from "../components/ezsnack/tecnologias";
+import Footer from '../components/ezsnack/footer';
 
 const Ezsnack = () => {
   useEffect(() => {
@@ -30,6 +31,7 @@ const Ezsnack = () => {
       <section id="tecnologias">
         <Tecnologias />
       </section>
+      <Footer />
     </main>
   );
 };

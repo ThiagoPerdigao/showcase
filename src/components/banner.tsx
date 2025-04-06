@@ -52,7 +52,7 @@ const Banner = () => {
             </a>
             <button
               className="group relative flex items-center gap-2 border border-blue-900 px-6 py-3 overflow-hidden transition-all"
-              onClick={() => copyToClipboard("thiagovitor299@gmail.com", setCopied)}
+              onClick={() => copyToClipboard("thiagovperdigao@gmail.com", setCopied)}
               onMouseEnter={() => setHovered("email")}
               onMouseLeave={() => setHovered(null)}
             >

@@ -4,6 +4,7 @@ import BannerAngher from "../components/angher/bannerAngher";
 import ContribuicoesAngher from "../components/angher/contribuicoes";
 import { SolucaoAngher } from "../components/angher/solucaoAngher";
 import { TecnologiasAngher } from "../components/angher/tecnologias";
+import Footer from '../components/angher/footer';
 
 const AngherPage = () => {
   // Garante que a página comece no topo ao carregar
@@ -26,6 +27,7 @@ const AngherPage = () => {
       <section id="tecnologias">
         <TecnologiasAngher />
       </section>
+      <Footer />
     </main>
   );
 };
