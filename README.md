@@ -1,6 +1,6 @@
 # showcase – Thiago Perdigão
 
-Este é o repositório do meu portfólio pessoal, desenvolvido com **React**, **Vite** e **Tailwind CSS**. O objetivo é apresentar meus projetos e habilidades como desenvolvedor.
+Este é o repositório do meu portfólio pessoal, desenvolvido com **React**, **Vite** e **Tailwind CSS**. O objetivo é apresentar um pouco sobre mim, meus projetos e habilidades como desenvolvedor.
 
 🔗 Acesse online: [showcase-thiago-perdigao.vercel.app](https://showcase-thiago-perdigao.vercel.app/)
 
