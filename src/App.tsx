@@ -18,7 +18,8 @@ function App() {
             path="/"
             element={
               <>
-                <section id="banner">
+                {/* Adicionamos mt-16 (64px) para desktop e mt-12 (48px) para mobile */}
+                <section id="banner" className="mt-12 md:mt-16">
                   <Banner />
                 </section>
                 <section id="SkillsSection">
@@ -35,7 +36,7 @@ function App() {
             }
           />
           <Route path="/ezsnack" element={<Ezsnack />} />
-          <Route path="/angher" element={<Angher />} /> {/* Nova rota */}
+          <Route path="/angher" element={<Angher />} />
         </Routes>
       </div>
     </Router>

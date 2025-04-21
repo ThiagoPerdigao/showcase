@@ -26,7 +26,7 @@ const SkillsSec = () => {
             <strong className="block text-amber-400">competências</strong>
           </div>
         </h1>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-8">
           {skills.map((skill, index) => (
             <div
               key={index}

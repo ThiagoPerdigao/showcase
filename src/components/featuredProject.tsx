@@ -6,7 +6,7 @@ const FeaturedProject = () => {
     <section>
       <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <div className="bg-blue-900 h-[86%] p-8 md:p-12 lg:px-16 lg:py-24 flex flex-col justify-center object-cover object-top shadow-lg">
+          <div className="bg-blue-900 p-8 md:p-12 lg:px-16 lg:py-24 flex flex-col justify-center shadow-lg min-h-[500px]">
             <div className="max-w-xl">
               <h2 className="text-3xl font-bold text-white md:text-4xl">
                 PROJETO <span className="text-[#fac141]">DESTAQUE</span>
@@ -24,11 +24,11 @@ const FeaturedProject = () => {
               <div className="mt-6">
                 <Link
                   to="/ezsnack"
-                  className="group relative flex items-center gap-2 border border-blue-900 bg-white px-6 py-3 overflow-hidden transition-all mr-65"
+                  className="inline-flex items-center gap-2 border border-white bg-transparent px-6 py-3 text-white transition-all hover:bg-white hover:text-blue-900 relative overflow-hidden group"
                 >
-                  <span className="absolute inset-y-0 right-0 w-[2px] bg-yellow-400 transition-all group-hover:w-full z-0"></span>
-                  <FaRegEye className="relative text-blue-900 transition-colors group-hover:text-blue-900 z-10" />
-                  <span className="relative text-sm font-medium text-blue-900 transition-colors group-hover:text-blue-900 z-10">
+                  <span className="absolute inset-0 bg-yellow-400 w-0 group-hover:w-full transition-all duration-300"></span>
+                  <FaRegEye className="relative z-10" />
+                  <span className="relative z-10 text-sm font-medium">
                     Ver mais detalhes
                   </span>
                 </Link>
@@ -36,11 +36,11 @@ const FeaturedProject = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-1 lg:grid-cols-1">
+          <div className="relative">
             <img
               alt="Projeto Destaque"
               src="/EZSNACKBANNER.png"
-              className="w-full h-[86%] object-cover object-top shadow-lg"
+              className="w-full h-full min-h-[500px] object-cover object-top shadow-lg"
             />
           </div>
         </div>
