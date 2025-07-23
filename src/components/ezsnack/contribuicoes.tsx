@@ -58,7 +58,7 @@ const Contribuicoes = () => {
                 </span>
               </summary>
               <p className="mt-4 leading-relaxed text-gray-700">
-                Liderei a equipe de desenvolvimento definindo as necessidades técnicas da aplicação. Como líder técnico do frontend, estabeleci os padrões de código e arquitetura para ambos os clientes (web e mobile). Garanti a coesão entre os módulos e a implementação correta das integrações com o backend.
+                Liderei a equipe de desenvolvimento definindo as necessidades técnicas da aplicação. Como líder técnico da equipe, estabeleci os padrões de código e arquitetura para ambos os clientes (web e mobile). Garanti a coesão entre os módulos e a implementação correta das integrações com o backend.
               </p>
             </details>
   
