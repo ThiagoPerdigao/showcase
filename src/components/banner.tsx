@@ -20,11 +20,11 @@ const Banner = () => {
             <strong className="text-blue-900"> Perdigão </strong>
           </h1>
           <h2 className="text-xl font-semibold text-amber-400 mt-2">ENGENHEIRO DE SOFTWARE EM FORMAÇÃO</h2>
-          <p className="mt-4 text-base text-pretty text-gray-700 sm:text-lg/relaxed">
-          Sou estudante de Engenharia de Software na PUC Minas e atualmente estagiário de QA, onde aplico conceitos de qualidade de software, testes e validação de funcionalidades. Paralelamente, desenvolvo projetos web e mobile, com proficiência em React, JavaScript, Node.js, Java com Spring Boot, React Native, Tailwind CSS e SQL. 
-<br /><br />
-          Tenho facilidade em me adaptar a diferentes contextos e estou sempre em busca de evolução técnica — seja em testes, desenvolvimento ou metodologias ágeis. Valorizo boas práticas de UI/UX, organização de código e integração eficiente entre camadas do sistema.
-          </p>
+         <p className="mt-4 text-base text-pretty text-gray-700 sm:text-lg/relaxed">
+          Sou estudante de Engenharia de Software na PUC Minas e estagiário como <strong>Desenvolvedor Backend</strong>, atuando com <strong>PHP e Hyperf</strong> no desenvolvimento de <strong>microserviços</strong> e <strong>APIs de integração com parceiros</strong>. Trabalho com foco em performance, escalabilidade e organização de código, aplicando boas práticas de arquitetura e desenvolvimento.
+          <br /><br />
+          Além da atuação profissional, desenvolvo projetos <strong>web e mobile</strong>, utilizando <strong>React, JavaScript, Node.js, Java com Spring Boot, React Native, Tailwind CSS e SQL</strong>. Tenho facilidade em me adaptar a diferentes contextos, gosto de aprender novas tecnologias e valorizo <strong>código limpo, manutenibilidade, boas práticas de UI/UX</strong> e <strong>integração eficiente entre as camadas do sistema</strong>.
+        </p>
           <div className="mt-6 flex flex-wrap gap-4">
             <a
               className="group relative flex items-center gap-2 border border-blue-900 px-6 py-3 overflow-hidden transition-all"
